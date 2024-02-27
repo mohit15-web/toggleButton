@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.container {
+  width: 220px;
+  height: 110px;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 10px;
+  position: relative;
+  margin-bottom:20px ;
+}
+
+.container .circle {
+  width: 88px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 29px;
+}
+#myDiv {
+  transition: transform 0.5s ease; /* Add transition for smooth movement */
+}
+
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
